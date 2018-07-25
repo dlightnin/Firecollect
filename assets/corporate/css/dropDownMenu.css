@@ -1,0 +1,182 @@
+/* GLOBAL MENU COLORS */
+#menu a{
+  color: #0f758d !important;
+}
+#menu a:hover {
+  color: #ff6b0b !important;
+}
+#menu > ul{
+  height: 20em ;
+  /* padding-top:1em ; */
+}
+
+/* GLOBAL MENU COLORS */
+
+/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px){
+/*
+#down is the id of the menu displayed in desktop mode
+#small is the id of the menu displayed in tablet/smartphone view
+
+in this media query, the #small menu is not displayed
+ */
+
+  #small {
+    display: none !important ;
+  }
+/*  dowpdown menu from main menu */
+  #down {
+    font-size: 18px ;
+    min-width: 100%;
+    background: #efefef;
+    padding: 0;
+    margin: 0;
+    height: 5.5em;
+    position:absolute;
+  }
+
+  #down ul {
+    list-style:none;
+    padding:0 20px;
+    margin: 0;
+    height: auto;
+
+  }
+
+  #down ul li {
+    height: 5.5em ;
+    margin-bottom: -2em ;
+    padding-top: 1em ;
+    display: inline-block;
+
+  }
+
+  #down ul li a {
+    /* color: #0f758d ; */
+    display:block;
+    padding:0px 20px;
+    text-decoration:none;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  #down ul li:hover {
+    background: white;
+  }
+
+  #down a{
+    color: #ff6b0b !important;
+  }
+  #down a:hover {
+    color: #0f758d !important ;
+  }
+
+}
+
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+
+  #down {
+    display: none !important;
+  }
+  #desktopMenu {
+    display: none !important ;
+  }
+
+  #toggle {
+    /*  this controlls the visibility of the angle-down icon beside the menu.
+    for now, it is only visible on desktop
+    */
+    display: none ;
+
+    /* padding-right: 24em; */
+    /* margin-right: -30em; */
+    /* position: fixed ; */
+    /* padding-left: -50em !important; */
+    /* float: center  !important; */
+    /* margin-left: -10em ;/ */
+    /* width: auto;
+    height: auto; */
+    /* position: sticky ; */
+  }
+
+  #small {
+
+      font-size: 18px ;
+      width: 100%;
+      /* background: #efefef; */
+      overflow: hidden ;
+      /* padding: 0; */
+      /* padding-top: 3em ; */
+      margin: 0;
+      height: 5.5em;
+      padding-bottom: 10em ;
+
+
+  }
+  #small > li {
+    padding-left:10em ;
+    padding-top: 1em ;
+  }
+
+  #small a {
+    color: #ff6b0b !important;
+  }
+
+  #small li:hover {
+    background: white;
+  }
+  #small li a:hover{
+    color: #0f758d !important;
+  }
+
+
+}
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px){
+  #down {
+    display: none !important;
+  }
+  #desktopMenu {
+    display: none !important ;
+  }
+  #menuOption1 {
+    /* padding-left:8em ; */
+  }
+  #toggle {
+    display: none ;
+    /* padding-right: 10em ; */
+  }
+
+
+  #small {
+
+      font-size: 18px ;
+      min-width: 100% ;
+      /* background: #efefef; */
+      /* padding: 0; */
+      /* margin: 0; */
+      margin-bottom: 5em ;
+      height: 5.5em;
+      margin-left: -1em ;
+
+  }
+  #small > li {
+    padding-left:6em ;
+    padding-top:.9em ;
+  }
+
+  #small a {
+    color: #ff6b0b !important;
+  }
+
+  #small li:hover {
+    background: white;
+  }
+  #small li a:hover{
+    color: #0f758d !important;
+  }
+
+}

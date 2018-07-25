@@ -1,0 +1,543 @@
+
+#parent {
+  overflow-x: hidden ;
+}
+/***************** GLOBAL *****************/
+html, body {
+  color: black !important ;
+  width: 100%  ;
+  padding: 0 !important;
+  margin: 0 !important;
+
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  display: block ;
+  width: 100% ;
+  height: auto ;
+
+}
+h1 {
+  font-weight: bold;
+  text-align: center !important;
+}
+.functionality_divs h3 {
+  padding-top: 2em ;
+  font-weight: bold ;
+
+}
+
+#backdiv1 {
+  background-image:url('../../../imgs/bg-manage.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position: left left  ;
+  background-size:85em;
+
+}
+
+#backdiv2 {
+  background-image:url('../../../imgs/bg-connection.png');
+  background-repeat:no-repeat;
+  background-size:130em;
+  background-position: left left  ;
+}
+
+.dropmenu:hover {
+  /* height: 80px ; */
+  /* margin-top: 2em ;   */
+}
+.dropdown-content {
+
+  display: none;
+    min-width: 160px;
+    /* z-index: 1; */
+}
+/***************** GLOBAL *****************/
+
+
+/*****************  MEDIA QUERIES  *****************/
+
+
+
+/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px){
+
+
+/*Style*/
+  #logo {
+    /* max-width: 18em !important ; */
+    width: 200px ;
+    max-height: 5em ;
+    margin-bottom: 1em ;
+    margin-left: 4em ;
+
+  }
+  /* #logolink {display: flex;
+    overflow: hidden ;
+  } */
+  .mobi-toggler {
+    display: none ;
+  }
+  #test {
+    display: none ;
+  }
+  #test2 {
+    display: none ;
+  }
+  #menu_item:hover {
+    height: 98px ;
+  }
+
+  /*  menu with loco*/
+  #nav {
+    height: 50px ;
+    float: right ;
+    margin-right: 4em ;
+    /* margin-bottom: -10em ; */
+    margin-top: -5.8em ;
+
+  }
+
+
+  #top_banner {
+    padding-top: 6em ;
+    height: 30em ;
+    margin-bottom: 5em !important;
+  }
+
+  #first {
+    padding-top:2em ;
+    height: 60em;
+
+     }
+
+     #im1 {
+       /* width: 30em ; */
+       /* height: 30em !important; */
+       /* margin-top: 2em ; */
+       /* padding-right: 5em ; */
+       margin-top: 3em ;
+       min-width: 50% ;
+       /* position: static; */
+       padding-top: 3em ;
+       /* height: 60em ; */
+       /* max-width: 100% ; */
+
+     }
+
+  #second {
+    height: 55em ;
+    padding-top: 5em ;
+
+    color: white ;
+    background-image: url("../../../imgs/o2.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #third {
+    height: 65em ;
+    padding-top: 7em ;
+
+  }
+
+    #third img {
+      min-width: 45em ;
+      min-height: 25em ;
+      margin-top: 4em ;
+
+  }
+  #fourth {
+    padding-top: 5em ;
+    height: 55em ;
+    color: white ;
+    background-image: url("../../../imgs/o3.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .carousel-inner > .item > img {
+    margin-top: 4em ;
+  }
+
+  #bottom_banner {
+    height: 25em ;
+    padding-top: 6em ;
+  }
+
+
+  /*  footer */
+    #fdiv1 {
+      padding-top: 1em ;
+    }
+    #fdiv2 {
+      float: right ;
+      padding-top: 1em ;
+    }
+  /* footer */
+
+} /* END DESKTOP VIEW */
+
+
+
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+  #logo {
+    /* width: 18em !important ; */
+    width: 200px ;
+    height: 55px ;
+    margin-left: 4em ;
+    margin-bottom: -4em ;
+  }
+  .header .mobi-toggler {
+    margin-right: 4em !important ;
+    margin-top: 25px ;
+    padding-bottom: 45px ;
+  }
+  .header li {
+    margin-right: 1em !important;
+    width: 100% ;
+  }
+
+  #backdiv2 {
+    background-size: 80em ;
+  }
+  #first img {
+    /* height: 35em ; */
+    min-width: 35em ;
+    margin-top: 5em ;
+
+  }
+  #top_banner {
+    padding-top: 5.5em ;
+    margin-bottom: 5em ;
+    height: 30em ;
+  }
+  #first {
+    height: 79em ;
+    width: 100% ;
+    text-align: center;
+    margin-bottom: 14em ;
+    margin-top: 5em ;
+  }
+
+  [class*="col-"] {
+      width: 100% ;
+      height: auto ;
+  }
+  #im1 {
+    display: none ;
+  }
+  #test {
+
+  }
+
+  #second {
+    height: 68em ;
+    padding-top: 10em ;
+    margin-bottom: 10em ;
+
+    color: white ;
+    background-image: url("../../../imgs/o2.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #third {
+    height: 90em ;
+    text-align: center ;
+    margin-bottom: 8em ;
+    margin-top: -3em ;
+  }
+  #third img {
+    height: 38em ;
+    width: 50em ;
+    margin-top: 3em ;
+  }
+  #im3 {
+    display: none ;
+  }
+  #test2{
+    padding-top: 36em ;
+  }
+
+  #fourth {
+    height: 65em ;
+    padding-top: 8.5em ;
+
+    color: white ;
+    background-image: url("../../../imgs/o3.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .carousel-inner > .item > img {
+    margin-top: 4em ;
+    height: 19em !important;
+  }
+
+  #bottom_banner {
+    height: 25em ;
+    padding-top: 6.5em ;
+    /* padding-bottom: 5em ; */
+  }
+
+  /*  menu hover */
+  .header .mobi-toggler:hover{
+    color: #0f758d !important;
+  }
+
+  /*  footer */
+  #fdiv1  {
+    padding-top: 1em ;
+    margin-bottom: -2em ;
+
+  }
+  #fdiv2 {
+    /* padding-top: -7em ; */
+    /* margin-top: -1em ; */
+  }
+  /* footer */
+
+}
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px){
+
+  backdiv2 {
+    background-size: 40em ;
+  }
+/*Style*/
+    [class*="col-"] {
+        width: 100% ;
+        height: auto ;
+    }
+    #logo {
+      /* width: 18em !important ; */
+      width: 160px ;
+      height: 45px ;
+      margin-bottom: 35px ;
+      padding-left: 1em ;
+    }
+
+    .header .mobi-toggler:hover{
+      color: #0f758d !important;
+    }
+    #nav {
+      margin-top: -1.5em ;
+    }
+    .header li {
+      margin-right: 1em !important;
+      width: 100% ;
+    }
+    .header .mobi-toggler {
+      margin-right: 2em !important ;
+      margin-top: -44px ;
+    }
+    #b1, #b2 {
+      width: 100% ;
+    }
+    #top_banner {
+      padding-top: 6em ;
+      height: 48em ;
+      margin-bottom: 6em ;
+    }
+    #first {
+      height: 67em ;
+      text-align: center;
+      margin-bottom: 20em ;
+    }
+
+    #second {
+      height: 77em ;
+      padding-top: 7em ;
+      /* padding-bottom: 50em !important; */
+
+      color: white ;
+      background-image: url("../../../imgs/o2.png") ;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+
+    #third {
+      /* padding-top: 50em !important; */
+      height: 97em ;
+      padding-top: 7em ;
+
+    }
+    #test {
+      padding-top: 1.8em ;
+      /* margin-bottom: 10em ; */
+      /* max-width: 100% ; */
+      /* height: 10em ; */
+    }
+    #third img{
+      padding-top: 3em ;
+    }
+    #fourth {
+      height: 77em ;
+      padding-top: 7em ;
+
+
+      color: white ;
+      background-image: url("../../../imgs/o3.png") ;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .functionality_divs i {
+      font-size: 5em !important;
+    }
+    .functionality_divs #first, #third, p {
+       text-align: center ;
+    }
+    .functionality_divs #second, #fourth, p {
+       text-align: center ;
+    }
+
+    #im1, #im3 {
+    display: none ;
+  }
+  /* this class is responsable for the size of the slider */
+  .carousel-inner > .item > img {
+    margin-top: 4em ;
+    height: 15em !important;
+  }
+
+  #bottom_banner {
+    height: 27em ;
+    padding-top: 4.5em ;
+  }
+
+
+
+  #fdiv1 {
+    padding-top: 1em ;
+    padding-bottom: 1em ;
+    float: center ;
+  }
+  #fdiv2 {
+    float: center ;
+    position: relative ;
+  }
+
+}
+/*****************  RESPONSIVE CSS *****************/
+
+
+
+/*****************  MENU  *****************/
+
+/*  keeps menu sticky */
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    padding-top: 1em ; /* Psition the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/***************** MENU *****************/
+
+
+
+/*****************  ZOOM ICONS *****************/
+
+#first_div {
+  margin-right: 30px ;
+  margin-left: 30px ;
+  margin-bottom: 80px ;
+  margin-top: 2em ;
+
+}
+
+.zoom_icons h3 {
+  color: black ;
+  font-weight: bold;
+}
+.zoom_icons i {
+  color: #0f758d ;
+  font-size: 60px ;
+  padding-top: .5em ;
+}
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+    transform: scale(1.5);
+}
+/*****************  ZOOM ICONS *****************/
+
+
+
+/***************** REGISTER/LOGIN BLOCK *****************/
+
+
+#top_banner {
+
+  color: white ;
+  align: center ;
+  text-align: justify;
+
+
+}
+#b1 {
+  color: black !important;
+  align: center ;
+  padding: 18px 75px ;
+  font-size: 20px ;
+  background-color: #ff6b0b ;
+  margin-bottom: .1em;
+  border: 0 ;
+
+  /* text-decoration: none !important; */
+
+}
+
+#b2 {
+  /* -webkit-appearance: none; */
+  background-color: #efefef ;
+  color: black ;
+  align: center ;
+  padding: 18px 75px ;
+  font-size: 20px;
+  border: 0 ;
+  /* text-decoration: none !important; */
+
+}
+button:hover{
+  background-color: #fc8d25  !important;
+}
+/***************** REGISTER/LOGIN DIV *****************/
+
+
+/**************** FUNCTIONALITY BLOCK ****************/
+
+/* MANAGE PROJECTS DIV */
+
+.functionality_divs i {
+  font-size: 8em ;
+  padding-bottom: 50px ;
+
+}
+
+
+/* MANAGE PROJECTS DIV */
+
+/*  FRIENDLY UI */
+#second, #fourth {
+  min-width: 100% ;
+
+}
+a:hover  {
+  color: #ff6b0b !important;
+}
+
+/**************** FUNCTIONALITY BLOCK ****************/

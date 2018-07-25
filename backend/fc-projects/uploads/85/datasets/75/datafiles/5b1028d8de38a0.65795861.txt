@@ -1,0 +1,12 @@
+Alejandro Deloach Rivera
+801-13-1900
+CCOM 4088
+Prof. Ortiz
+
+Steps taken to recover files from disk images:
+
+1) Run testdisk command on the desired image.
+2) Navigate through the program to find the deleted files.
+3) Select all the files and copy them to a directory.
+4) Use the file command to make sure the files are what they're supposed to be.
+5) repeat on next image.
